@@ -57,7 +57,7 @@ async function run() {
 run().catch(console.dir)
 
 app.get('/', (req, res) => {
-    res.send('VISUALIZATION DASHBOARD')
+    res.send('Ecommerce-Bazar-Com')
 })
 
 app.listen(port, () => {
